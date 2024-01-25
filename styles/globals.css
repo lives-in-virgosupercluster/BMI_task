@@ -120,3 +120,30 @@ input:focus {
   width: 30rem;
   height: 30rem;
 }
+
+@media only screen and (min-width: 100px) and (max-width: 1024px) {
+  /* Your styles for screens between 300px and 400px */
+  .container{
+    width: 45rem;
+    margin-left:20rem;
+    flex-direction: column;
+    height: 40rem;
+
+  }
+  .submitform{
+    width: 40rem;
+  }
+  .headercontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left:30rem;
+  
+  }
+  .main{
+    height: 70rem;
+  }
+ 
+
+  /* Add more styles as needed */
+}
