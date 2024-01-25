@@ -1,0 +1,22 @@
+
+{
+    "categories": [
+      {
+        "name": "Underweight",
+        "color": "rgba(52, 152, 219, 0.7)"
+      },
+      {
+        "name": "Normal weight",
+        "color": "rgba(46, 204, 113, 0.7)"
+      },
+      {
+        "name": "Overweight",
+        "color": "rgba(243, 156, 18, 0.7)"
+      },
+      {
+        "name": "Obese",
+        "color": "rgba(231, 76, 60, 0.7)"
+      }
+    ]
+  }
+  
