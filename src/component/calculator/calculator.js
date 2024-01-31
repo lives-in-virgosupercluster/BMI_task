@@ -50,10 +50,10 @@ export const Calculator = () => {
       <label>Gender:</label>
       <label>Age:</label>
       <div className='gendercontainer'>
-        <button type="button" onClick={() => setGender('male')} style={{ marginRight: '10px' }} className='btn'>
+        <button type="button" onClick={() => setGender('male')} style={{ marginRight: '10px' }} className={`btn ${gender === 'male' ? 'active' : ''}`}>
           Male
         </button>
-        <button type="button" onClick={() => setGender('female')} className='btn'>
+        <button type="button" onClick={() => setGender('female')} className={`btn ${gender === 'female' ? 'active' : ''}`}>
           Female
         </button>
         </div>

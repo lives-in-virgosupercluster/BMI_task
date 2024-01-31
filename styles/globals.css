@@ -116,6 +116,15 @@ input:focus {
   outline: none; 
   box-shadow: inset 0 0 10px rgba(241, 177, 57, 0.605); 
 }
+.btn:active,.btn:focus{
+  outline:none;
+  box-shadow: inset 0 0 10px rgba(241, 177, 57, 0.605); 
+
+}
+.active{
+  outline:none;
+  box-shadow: inset 0 0 10px rgba(241, 177, 57, 0.605); 
+}
 .chartcontainer{
   width: 30rem;
   height: 30rem;
